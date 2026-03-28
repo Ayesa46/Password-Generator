@@ -1,0 +1,77 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color:burlywood;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.output-container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#password-output{
+    flex: 1;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(112, 83, 45) ;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+button:hover{
+        background-color: rgb(87, 47, 10);
+    }
+.options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.options label{
+    color: white;
+    font-size: 14px;
+}
+.length-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.length-container label{
+    color: white;
+    font-size: 14px;
+}
+input[type="number"]{
+    width: 60px;
+    padding: 5px;
+    background-color: rgb(221, 113, 25);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+}
